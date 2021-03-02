@@ -1,4 +1,4 @@
-# Ayooservice Mobile Teknisi Apps
+# TEST DEVICE INFO
 
 After Pull:<br>
 1. `yarn install`
