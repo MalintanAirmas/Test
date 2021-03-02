@@ -7,7 +7,7 @@ import { SafeAreaView, StyleSheet, View, Text, StatusBar } from 'react-native'
 export default function GeneralPage({ headerColor, statusBarBackground, headerLeft, headerRight, headerContent, arroundHeaderStyles, bodyContent }) {
     return (
         <SafeAreaView>
-            <StatusBar barStyle="light-content" backgroundColor={statusBarBackground ?? 'gray'} />
+            <StatusBar barStyle="dark-content" backgroundColor={statusBarBackground ?? 'gray'} />
             <View style={[stylesLocal.header, { backgroundColor: headerColor ?? 'gray' }]}>
                 <View style={[stylesLocal.arroundHeader, stylesLocal.center, arroundHeaderStyles]}>
                     {headerRight}

@@ -18,7 +18,7 @@ export default function DeviceInfo() {
     ]
     return (
         <GeneralPage
-            statusBarBackground={'black'}
+            statusBarBackground={'white'}
             headerContent={
                 <View style={[stylesLocal.headerCotainer]}>
                     <Text style={[stylesLocal.headerText]}>My Device Info</Text>
